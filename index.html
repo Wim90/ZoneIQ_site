@@ -281,15 +281,36 @@
             background: linear-gradient(135deg, rgba(255, 102, 0, 0.1) 0%, rgba(255, 102, 0, 0.05) 100%);
         }
 
-        .disclaimer-box strong {
+        /* Only the box title is block-level; inline <strong> must stay in sentence flow */
+        .disclaimer-box > strong {
             color: var(--otf-orange);
             font-size: 18px;
             display: block;
             margin-bottom: 10px;
         }
 
+        .disclaimer-box p strong,
+        .disclaimer-box li strong {
+            color: var(--otf-orange);
+            font-weight: 600;
+            font-size: inherit;
+            display: inline;
+        }
+
         .disclaimer-box p {
             margin-bottom: 10px;
+            color: var(--text-primary);
+            line-height: 1.65;
+        }
+
+        .disclaimer-box ul {
+            margin: 12px 0 16px 24px;
+            color: var(--text-primary);
+        }
+
+        .disclaimer-box li {
+            margin-bottom: 12px;
+            line-height: 1.65;
             color: var(--text-primary);
         }
 
@@ -441,7 +462,7 @@
                     <li>Your Orangetheory Fitness<sup class="trademark">®</sup> membership, billing, or account with OTF</li>
                     <li>The official Orangetheory mobile app or website</li>
                     <li>Your general OTF workout experience, performance at the studio, or anything unrelated to the ZoneIQ Mac app</li>
-                    <li>Incorrect, missing, or disputed workout data (calories, splats, zones, treadmill/rower stats, etc.)—the official Orangetheory Fitness<sup class="trademark">®</sup> <strong>mobile app is the source of truth</strong>; if ZoneIQ shows different numbers, trust the mobile app</li>
+                    <li>Incorrect, missing, or disputed workout data (calories, splats, zones, treadmill/rower stats, etc.). The official Orangetheory Fitness<sup class="trademark">®</sup> mobile app is the source of truth—if ZoneIQ shows different numbers, trust the mobile app.</li>
                 </ul>
                 <p>For those topics, contact <strong>Orangetheory Fitness<sup class="trademark">®</sup></strong> directly through their official channels.</p>
                 <p><strong>Why not data questions?</strong> ZoneIQ runs entirely on your Mac. The developer does <strong>not</strong> receive, store, or have access to your workout data and cannot look up your account or research discrepancies. When in doubt, rely on the official OTF mobile app—not ZoneIQ—for your workout numbers.</p>
