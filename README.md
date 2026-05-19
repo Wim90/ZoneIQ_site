@@ -1,6 +1,6 @@
 # ZoneIQ Web
 
-This repository contains the web page for ZoneIQ, an independent macOS app for analyzing Orangetheory Fitness workout data.
+Source files for the ZoneIQ marketing and legal site. **Deploy to:** [github.com/Wim90/ZoneIQ_site](https://github.com/Wim90/ZoneIQ_site) (public). The macOS app lives in the private [ZoneIQ](https://github.com/Wim90/ZoneIQ) repo — do not publish web files there.
 
 ## GitHub Pages Deployment
 
