@@ -1,6 +1,6 @@
-# OTF Analytics Web
+# ZoneIQ Web
 
-This repository contains the web page for OTF Analytics, an independent macOS app for analyzing Orangetheory Fitness workout data.
+This repository contains the web page for ZoneIQ, an independent macOS app for analyzing Orangetheory Fitness workout data.
 
 ## GitHub Pages Deployment
 
@@ -12,14 +12,14 @@ This repository is configured to be published via GitHub Pages. The `index.html`
    ```bash
    git init
    git add .
-   git commit -m "Initial commit: OTF Analytics web page"
+   git commit -m "Initial commit: ZoneIQ web page"
    git branch -M main
-   git remote add origin https://github.com/Wim90/OTF_Analytics_Web.git
+   git remote add origin https://github.com/Wim90/ZoneIQ_site.git
    git push -u origin main
    ```
 
 2. **Enable GitHub Pages:**
-   - Go to your repository on GitHub: https://github.com/Wim90/OTF_Analytics_Web
+   - Go to your repository on GitHub: https://github.com/Wim90/ZoneIQ_site
    - Click on **Settings** (in the repository navigation)
    - Scroll down to **Pages** in the left sidebar
    - Under **Source**, select:
@@ -28,13 +28,16 @@ This repository is configured to be published via GitHub Pages. The `index.html`
    - Click **Save**
 
 3. **Access your site:**
-   - Your site will be available at: `https://wim90.github.io/OTF_Analytics_Web/`
+   - Your site will be available at: `https://wim90.github.io/ZoneIQ_site/`
    - It may take a few minutes for the site to be published after enabling Pages
+
+**Live site:** https://wim90.github.io/ZoneIQ_site/  
+**Repository:** https://github.com/Wim90/ZoneIQ_site
 
 ### File Structure
 
 ```
-OTF_Analytics_Web/
+ZoneIQ_site/
 ├── index.html          # Main web page
 ├── .nojekyll          # Prevents Jekyll processing (for static HTML)
 └── README.md          # This file
@@ -58,9 +61,9 @@ git push
 
 ## Support
 
-For questions about OTF Analytics, please email: christophe@wimsightlabs.com
+For questions about ZoneIQ, please email: christophe@wimsightlabs.com
 
 ---
 
-**Disclaimer:** OTF Analytics is an independent third-party application and is not affiliated with, endorsed by, or sponsored by Orangetheory Fitness®.
+**Disclaimer:** ZoneIQ is an independent third-party application and is not affiliated with, endorsed by, or sponsored by Orangetheory Fitness®.
 
